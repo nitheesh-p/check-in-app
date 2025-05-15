@@ -1,7 +1,7 @@
 version: "3.8"  # optional, you can remove this warning
 
 services:
-    check-in-app:
+  web:
     build: .
     ports:
       - "3000:3000"
