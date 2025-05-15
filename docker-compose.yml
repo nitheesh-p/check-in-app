@@ -1,6 +1,5 @@
-version: '3'
 services:
-  web:
+  check-in-app:
     build: .
     ports:
       - "3000:3000"
