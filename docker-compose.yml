@@ -2,7 +2,8 @@ version: "3.8"  # optional, you can remove this warning
 
 services:
   web:
-    build: .
+    image: nithzp/check-in-app:latest
+    container_name: check-app
     ports:
       - "3000:3000"
     volumes:
